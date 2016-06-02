@@ -1,7 +1,8 @@
 def filter_numbers(arr):
   # Remove the `return None` code below and add your own code.
-  return None
-
+  return arr < 10
+  filter(filter_numbers, arr)
+ 
 # -----------------------------------------------------------------------------
 
 # These are the automated tests for this exercise. Do not modify them at all.
